@@ -46,7 +46,7 @@
 			  </div>
 			</div>
 			<div id="inner">
-				<form action="login.php" method="post" id="contactForm">
+				<form action="contact.php" method="post" id="contactForm">
 					<input class="inputField" type="text" name="name" placeholder="Name" required title="Name needed"><br><br>
 					<input class="inputField" type="email" name="email" placeholder="Email"title="email invalid" required><br><br>
 					<input id="submit" type="submit" value="Send"><br>

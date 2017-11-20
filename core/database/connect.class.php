@@ -7,11 +7,12 @@
 			$this->dbname = $dbname;
 			$this->myConnection = mysqli_connect($host,$username,$password,$dbname);
 		}
-		public function userExists($username){
-			$username = cleanData($username);
-			$this->query = "SELECT COUNT(user_id) FROM user WHERE userName = '$username'";
+		public function userExists($name){
+			$name = cleanData($name);
+			$this->query = "SELECT COUNT(id) FROM details WHERE Name = '$name'";
 			$result = $this->myConnection->query($this->query);
 			$row = mysqli_fetch_array($result);
+			//var_dump($row);
 			return($row[0] == 1) ? true : false;
 		}
 		public function getUserId($username){
@@ -21,18 +22,23 @@
 			$row = mysqli_fetch_array($result);
 			return $row[0];
 		}
-		public function login($username, $password){
-			$username = cleanData($username);
-			$newDBConnect = new dataBase('localhost','root','','vrlogin');
-			$user_id =$newDBConnect->getUserId($username);
-			$password = md5($password);
-			$this->query = "SELECT `user_id` FROM user WHERE userName = '$username' AND password = '$password'";
-			$result =$this->myConnection->query($this->query);
-			if($result->num_rows){
+		public function contactInsert($name, $email, $message){
+			$name = cleanData($name);
+			$email = cleanData($email);
+			$message = cleanData($message);
+			$this->query = "INSERT INTO `details`(`name`, `email`, `message`) VALUES ('$name','$email','$message')";
+			$result = $this->myConnection->query($this->query);
+			//var_dump($result[num_rows]);
+			//echo($result);
+			if($result){
 				 return 1;
 			}else{
 				 return 0;
 			}
 		}		
 	}
+	/*Notice: Use of undefined constant num_rows - assumed 'num_rows' in C:\xampp\htdocs\WebDesignContact\core\database\connect.class.php on line 31
+NULL 1
+Notice: Trying to get property of non-object in C:\xampp\htdocs\WebDesignContact\core\database\connect.class.php on line 33
+ERROR:*/
 ?>
