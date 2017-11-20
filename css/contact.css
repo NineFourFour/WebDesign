@@ -1,0 +1,935 @@
+	
+	.first{
+		background: -webkit-linear-gradient(gray,white,gray);
+		background-repeat: no-repeat;
+	}
+	.login{
+		position: absolute;
+		width: 800px;
+		height: 400px;
+		left: 50%;
+		top: 150px;
+		margin-left: -400px;
+		font-family: Myriad Pro regular;
+		color: #000;
+		font-weight: bold;
+		background: -webkit-linear-gradient(gray,white,gray);
+		border-radius: 25px;
+	}
+	#inner{
+		position: absolute;
+		width: 350px;
+		font-family: Myriad Pro regular;
+		top: 150px;
+		left: 50%;
+		margin-left: -200px;
+		font-size: 20px;	
+	}
+	#loginTitle{
+		position: absolute;
+		width: 60px;
+		top: 20px;
+		left: 50%;
+		margin-left: -350px;
+		font-size: 32px;
+		font-family: Myriad Pro regular;
+		color: #fff;
+	}
+	#submit{
+		float: right;
+	}
+	.inputField{
+		float: right; 
+	}
+	.logout{
+		font-family: Myriad Pro regular;
+		color: gray;
+		font-size: 22px;
+		font-weight: bold;
+	}
+	#respfold{
+		position: relative;
+		top: 300px;
+		width: 860px;
+		height: 800px;
+		left: 50%;
+		margin-left: -400px;	
+	}
+	#mainPage{
+		position: relative;
+		width: 850px;
+		left: 50%;
+		margin-left: -400px;
+		top: 210px;
+		
+	}
+	#mainDia{
+		position: relative;
+		top: 30px;
+		width: 840px;
+		
+		left: 50%;
+		margin-left: -400px;
+		background-color: white;
+		border-radius: 4px;
+	}
+	p.main , li.para{
+		width: 800px;
+		font-family: Myriad Pro regular;
+		font-size: 20px;
+		padding: 0px 20px 0 50px;
+	}
+	p.main{
+		padding-top: 90px;
+		
+	}
+	.top{
+		width: 1000px;
+		height: 60px;
+	}
+	.navTop{
+		position: relative;
+		left: 50%;
+		margin-left: -550px;
+		width: 1100px;
+		height: 60px;
+		border-radius: 16px;
+	}  
+	/*----------------------------------------------------navbar overwrite---------------------------*/
+	.navbar-default .navbar-nav > .active > a {
+		color: white; /*BACKGROUND color for active*/
+		background-color: lightgreen;
+	}
+	.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+		color: lightgreen;
+		background-color: white;
+	}
+	.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+		color: white;  /*Sets the text hover color on navbar*/
+		background-color: lightgreen;
+	}
+	.navbar-default .navbar-nav .dropdown .dropdown-menu > li > a:hover{
+		color: white;
+		background-color: lightgreen;
+	}
+	.navbar-default .navbar-nav .dropdown  > .active > a:hover{
+		background-color: lightgreen;
+	}
+	/*------------------------------------------------------------------------------------------------- */
+	.mainTitle{
+		margin: 0px 0 20px 130px;
+		color: white;
+		font-weight: bold;
+		font-size: 42px;	
+		font-family: Myriad Pro regular;
+	}
+	.persona{
+		position: absolute;
+		top: 120px;
+		left: 120px;
+		width: 900px;
+	}
+	.Page{
+		position: absolute;
+		width: 1000px;
+		left: 50%;
+		margin-left: -500px;
+	}
+	.PageS{
+		position: relative;
+		width: 1100px;
+		left: 50%;
+		margin-left: -550px;
+		height: 3200px;
+		border-radius: 10px;
+		background-color: white;
+	}
+	.d{
+		height: 2100px;
+	}
+	.uc{
+		height: 1100px;
+	}
+	.uc1{
+		height: 700px;
+		padding-top: 20px;
+	}
+	.uc2{
+		height: 800px;
+		padding-top: 20px;
+	} 
+	.t{
+		height: 1800px;
+		padding-top: 20px;
+	}
+	.sm{
+		height: 2080px;
+		padding-top: 20px;
+	}
+	.td{
+		height: 550px;
+		
+		padding-top: 20px;
+	}
+	.PageS1{
+		position: relative;
+		width: 1100px;
+		left: 50%;
+		margin-left: -550px;
+		height: 2500px;
+		border-radius: 10px;
+		background-color: white;
+	}
+	.page-body{
+		position: absolute;
+		width: 1000px;
+		left: 50%;
+		margin-left: -500px;	
+	}
+	.personaHead{
+		color: gray;
+		font-weight: bold;
+		font-size: 32px;	
+		font-family: Myriad Pro regular;
+		margin-left:20px;
+	}
+	.personaName{
+		margin-left: 20px;
+		margin-top: 10px;
+		font-size: 20px;	
+		font-family: Myriad Pro regular;
+	}
+	.personaInfo{
+		margin: 20px 20px 20px 20px;
+		font-size: 16px;	
+		font-family: Myriad Pro regular;
+		width: 700px;
+	}
+	.personaImage{
+		margin-left: 20px;
+		margin-top: 10px;
+		height: 370px;
+		width: 370px;
+	}
+	#scen_img{
+		margin: 20px 0 0 50px;
+		height: 200px;
+		width: 200px;
+	}
+	#scen_img1{
+		margin: 20px 0 0 10px;
+		height: 500px;
+		width: 550px;
+	}
+	#scen_img2{
+		margin: 20px 0 0 10px;
+		height: 300px;
+		width: 300px;
+	}
+	#scen_img_2_1{
+		margin: 20px 0 0 110px;
+		height: 500px;
+		width: 900px;
+	}
+	.scenario{
+		position: absolute;
+		top: 100px;
+		left: 50%;
+		width: 1100px;
+		margin-left: -550px;
+	} 
+	.scenarioDia{	
+		margin-left: 20px;
+		margin-top: 40px;
+		font-weight: bold;
+		font-size: 20px;	
+		font-family: Myriad Pro regular;
+	
+	}
+	.scenarioInfro{
+		margin-left: 50px;
+		font-style: italic;
+		margin-top: 50px;
+		font-size: 20px;	
+		font-family: Myriad Pro regular;
+	}
+	
+	.scenarioDia2{	
+		margin-left: 20px;
+		margin-top: 40px;
+		font-size: 18px;	
+		font-family: Myriad Pro regular;
+	
+	}
+	#dia1{
+		position: relative;
+		left: 50%;
+		margin-left: -350px;
+		width: 700px;
+		height: 400px;
+	}
+	.wf1{
+		position: relative;
+		left: 50%;
+		margin-left: -350px;
+		width: 600px;
+		height: 400px;
+	}
+	.diagram{
+		position: absolute;
+		top: 120px;
+		left: 50%;
+		width: 850px;
+		margin-left: -425px;
+	}
+	.useCase{
+		position: relative;
+		left: 50%;
+		width: 800px;
+		margin-left: -400px;
+	}
+	.tCase{
+		position: relative;
+		width: 900px;
+		margin-left: -450px;
+		left: 50%;
+	}
+	iframe.persona{
+		position: absolute;
+		left: 50%;
+		width: 1100px;
+		height: 500px;
+		margin-left: -550px;
+		background-color:white;
+	} 
+	iframe.s{
+		position: relative;
+		left: 50%;
+		margin-left: -550px;
+		width: 1100px;
+		height: 3200px;
+		padding: 0 20px 0 20px;
+		border-radius: 5px;
+	} 
+	iframe.s.d{
+		height: 2100px; 
+	}
+	iframe.s.uc{
+		height: 1100px;
+	}
+	iframe.s.uc1{
+		height: 680px;
+	}
+	iframe.s.uc2{
+		height: 780px;
+	}
+	iframe.s.t{
+		height: 1780px;
+	}
+	iframe.s.sm{
+		height: 2000px;
+	}
+	iframe.s.td{
+		height: 500px;
+	}
+	iframe.s1{
+		position: relative;
+		left: 50%;
+		margin-left: -550px;
+		width: 1100px;
+		height: 2400px;
+		padding: 0 20px 0 20px;
+		border-radius: 5px;
+	}
+	iframe.vid{
+		width: 840px;
+		height: 472px;
+	}
+	iframe.respos{
+		width: 840px;
+		height: 300px;
+		background-color: white;
+		border-radius: 7px;
+	}
+	/***secion containing botton navbar***************************************************/
+	.footer-next{
+		position: relative;
+		top: 120px;
+		left:50%;
+		margin-left: -650px;
+		padding-right: 50px;
+		height: 100px;
+		width: 1200px;
+
+		background: white;
+		
+	}
+	/***botton navbar***********/
+	.footer-nav{
+		list-style-type: none;
+		margin: 0;
+		text-decoration: none;
+		margin-top: 20px;
+	}
+	ul.footer-nav{
+		width: 680px;		
+	}
+	.footer-nav li{
+		color: black;
+		display: inline;
+	}
+	.footer-nav li a{
+		color: black;
+		font-weight: bold;
+		font-size: 22px;	
+		font-family: Myriad Pro regular;
+		padding: 10px;
+		height: 60px;
+		
+	} 
+	.footer-inner{
+		margin-left:50%;
+		height: 100px;
+	}
+	/***redovr to the left***/
+	.fc{
+		position: absolute;
+		margin-top: 10px;
+		width: 100px;
+		left: 20px;
+	
+	}
+	/********bottom navbar active page************/	
+	.footer-inner .footer-nav > .active > a,
+	.footer-inner .footer-nav > .active > a:hover,
+	.footer-inner .footer-nav > .active > a:focus {
+		color: gray;
+		background-color: lightgreen;
+		border-radius: 5px;
+		height:50px;
+	}
+	.footer-inner .footer-nav > li > a:hover,
+	.footer-inner .footer-nav > li > a:focus {
+		color: lightgreen;
+		text-decoration: none;
+	}
+	#t1{
+		tab-size: 16;
+	}
+	
+/****************************************************************************************Media*/
+	@media (max-width: 800px){
+		.first{
+            height: 1700px;
+        }
+        .top{
+			width: 700px;
+		}
+		.mainTitle{
+			margin-left: 55px;
+			width: 300px;
+		}
+        .navTop{
+		
+			margin-left: -350px;
+			width: 700px;
+		   
+		} 
+            
+                p.main , li.para{
+		       width: 700px;
+		       padding: 0px 20px 0 50px;
+	        }
+	        p.main{
+		     padding-top: 50px;
+		
+	        }
+		.login{
+			width: 600px;
+			height: 400px;
+			margin-left: -300px;
+		}
+		#loginTitle{
+			margin-left: -250px;
+		}
+		div.personaHead{
+			width: 400px;
+			margin-left: 30px;
+		}
+		img.personaImage{
+			height: 500px;
+			width: 500px;
+			margin-left: 30px;
+		}
+		div.personaInfo{
+			margin-left: 30px;
+			width: 400px;
+		}
+		div.personaName{
+			margin-left: 30px;
+		}
+		div.row{
+			width: 1000px;
+		}
+		div.panel-body{
+			padding-right: 0px;
+			width: 680px;
+		}
+		div.panel-default{
+			padding-right: 0px;
+			width: 680px;
+		}
+		.page-body{
+			margin-left: -370px;
+			width: 750px;
+		}
+		iframe{
+			width: 750px;
+			height: 2100px;
+		}
+		iframe.vid{
+			width: 700px;
+			height: 379px;
+		}
+		iframe.respos{
+			width: 700px;
+			height: 307px;
+		}
+		iframe.persona{
+			width: 700px;
+			margin-left: -350px;
+			height: 1500px;
+		}
+		#respfold{
+			top: 220px;
+			width: 700px;
+			height: 310px;
+			margin-left: -350px;	
+		}
+		.Page{
+			width: 750px;
+			margin-left: -350px;
+		}
+		#mainPage{
+			width: 700px;
+			margin-left: -350px;
+			top: 130px;
+		}
+		#mainDia{
+			width: 700px;
+			
+			margin-left: -350px; 
+		} 
+		p, li.para{
+			width: 700px;
+		
+		}
+		#dia1{
+			margin-left: -300px;
+			width: 600px;
+		} 
+		.wf1{
+			margin-left: -250px;
+			width: 500px;
+			height: 300px;
+		}
+		.useCase{
+			width: 700px;
+			margin-left: -360px;
+		}
+		.tCase{
+			width: 700px;
+			margin-left: -350px;
+		}
+                .footer-next{
+		        top: 220px; 
+		        margin-left: -400px;
+		        padding-right: 50px;      
+		        width: 800px;		
+	        }
+	/***botton navbar***********/
+	.footer-nav{
+		list-style-type: none;
+		margin: 0;
+		text-decoration: none;
+	 	margin-top: 40px;
+                padding-top: 20px;
+	}
+	ul.footer-nav{
+                
+		width: 515px;		
+	}
+	 
+	.footer-nav li a{
+		font-size: 16px;	
+		
+	}
+	.footer-inner{
+		margin-left:35%;
+		
+	}
+	/***redovr to the left***/
+	.fc{ 
+		position: absolute;
+		margin-top: 10px;
+		width: 100px;
+		left: 20px;
+	
+	} 
+		
+	}
+	/********************************max-width_650px*****************************************************/
+	@media (max-width: 650px){
+		.first{
+                      height: 1800px;
+                }
+                .top{
+			width: 500px;
+		}
+		.mainTitle{
+			margin-left: 55px;
+			width: 300px;
+		}
+                .navTop{ 
+	        
+		        margin-left: -275px;
+		        width: 550px;
+		       
+	        }
+		.login{
+			width: 500px;
+			margin-left: -250px;
+		}
+		#loginTitle{
+			margin-left: -220px;
+		}
+		div.personaHead{
+			width: 400px;
+			margin-left: 0px;
+		}
+		img.personaImage{
+			height: 450px;
+			width: 450px;
+			margin-left: 0px;
+		}
+		div.row{
+			width: 640px;
+		}
+		div.col-md-6{
+		
+			width: 400px;
+		}
+		div.panel-body{
+			padding-right: 0px;
+			width: 500px;
+		}
+		div.panel-default{
+			padding-right: 0px;
+			width: 500px;
+		}
+		.page-body{
+			margin-left: -300px;
+			width: 500px;
+		}
+		
+		iframe{
+			width: 600px;
+			height: 2100px;
+		}
+		iframe.vid{
+			width: 550px;
+			height: 309px;
+		}
+		iframe.respos{
+			width: 547px;
+			height: 307px;
+		}
+		#respfold{
+			top: 160px;
+			width: 550px;
+			height: 300px;
+			margin-left: -275px;	
+		}
+		#mainPage{
+			width: 550px;
+			margin-left: -275px;
+			top: 100px;
+		} 
+		#mainDia{
+			width: 550px;
+			
+			margin-left: -275px;
+		}
+		p.main, li.para{
+			width: 500px;
+		
+		}
+		.Page{
+			width: 550px;
+			margin-left: -250px;
+		}
+		div.personaInfo{
+			margin-left: 0px;
+			width: 400px;
+		}
+		div.personaName{
+			margin-left: 0px;
+		}
+		#dia1{
+			margin-left: -245px;
+			width: 450px;
+			height: 258px; 
+		}
+		.wf1{
+			margin-left: -210px;
+			width: 400px;
+			height: 250px;
+		}
+		.useCase{
+			width: 500px;
+			margin-left: -250px;
+		}
+		.tCase{
+			width: 500px;
+			margin-left: -250px;
+		}
+                .footer-next{
+		        top: 220px; 
+		        margin-left: -310px;
+		        padding-right: 0px;      
+		        width: 630px;		
+	        }
+	    /***botton navbar***********/
+	       .footer-nav{
+		
+	 	      margin-top: 40px;
+                      padding-top: 10px;
+	        }
+	        ul.footer-nav{
+                
+		      width: 420px;		
+	        }
+	 
+	        .footer-nav li a{
+		         font-size: 12px;	
+		
+	        }
+	        .footer-inner{
+		        margin-left:30%; 
+                        width: 300px;
+		 
+	        }
+	 /***redovr to the left***/
+	       .fc{
+		       width: 100px;
+	       }
+	}
+/**************************************************max-width_400px**********************************/	
+	@media (max-width: 400px){
+		.first{
+                      height: 2150px;
+                }
+                 .top{
+			width: 300px;
+			margin-left: 10px;
+		}
+		.mainTitle{
+			margin-left: 10px;
+			width: 300px;
+		}
+                .navTop{ 
+	        
+		        margin-left: -175px;
+		        width: 350px;
+		       
+	        }
+		.login{
+			width: 300px;
+			height: 300px;
+			margin-left: -150px;
+		}
+		#inner{
+			width: 200px;
+			top: 100px;
+			margin-left: -100px;
+			font-size: 16px;
+			
+		}
+		#loginTitle{
+			margin-left: -120px;
+		}
+		.persona{
+			top: 200px;
+			width: 350px;
+			left: 50%;
+			margin-left: -175px;
+		}
+		div.personaHead{
+			width: 330px;
+			margin-left: 0px;
+			padding-left: 10px;
+		}
+		
+		img.personaImage{
+			height: 300px;
+			width: 300px;
+			margin-left: 0px;
+			padding-left: 20px;
+		}
+		div.row{
+			width: 350px;
+		}
+		div.col-md-6{
+			padding-right: 0px;
+			width: 350px;
+		}
+		div.panel-default{
+			padding-right: 0px;
+			width: 320px;
+		}
+		div.panel-body{
+			
+			width: 300px;
+		}
+		.page-body{
+			width: 350px;
+			margin-left: -175px;
+		}
+		iframe{
+			width: 370px;
+			height: 2100px;
+		}
+		iframe.vid{
+			width: 345px;
+			height: 345px;
+		}
+		iframe.respos{
+			width: 350px;
+			height: 550px;
+		}
+		#respfold{
+			top: 200px;
+			width: 350px;
+			height: 550px;
+			margin-left: -175px;
+		}
+		#mainPage{
+			width: 350px;
+			margin-left: -175px;
+			top: 120px;
+		} 
+		#mainDia{
+			width: 350px;
+			margin-left: -175px;
+                     
+			
+		}
+		p.main, li.para{
+			width: 350px;
+			left: 0;
+			font-size: 18px;
+		}
+                p.main{
+                       padding-top: 10px;
+                }
+		.Page{
+			left: 0;
+			width: 330px;
+			margin-left: 10px;
+		}
+		div.personaInfo{
+			margin-left: 0px;
+			padding-left: 30px;
+			width: 300px;
+		}
+		div.personaName{
+			margin-left: 0px;
+			padding-left: 30px;
+		}
+		#scen_img1{ 
+			margin: 20px 0 0 10px;
+			height: 250px;
+			width: 250px;
+		}
+		#scen_img2{
+			margin: 20px 0 0 10px;
+			height: 300px;
+			width: 300px;
+		}
+		#scen_img_2_1{
+			margin: 20px 0 0 0px;
+			height: 150px;
+			width: 300px;
+		}
+		.scenarioDia{	
+			margin-left: 0px;
+			width: 300px;
+		}
+		.scenarioDia2{	
+			margin-left: 0px;
+			width: 300px;
+		}
+		.scenarioInfro{
+			margin-left: 5px;
+			width: 300px;
+		
+		}
+		#dia1{
+			margin-left: -125px;
+			width: 250px;
+			height: 145px; 
+		}
+		.wf1{
+			margin-left: -130px;
+			width: 250px;
+			height: 150px;
+		}
+		.useCase{
+			width: 300px;
+			margin-left: -150px;
+		}
+		.tCase{
+			width: 300px;
+			margin-left: -170px;
+		}
+                /****************************************************footer*/
+                .footer-next{
+		        top: 220px; 
+		        margin-left: -175px;
+		        padding-right: 0px;      
+		        width: 350px;		
+	        }
+	   
+	        .footer-nav{
+	 	      margin-top: 40px;
+                      padding-top: 60px;
+                      padding-left: 0;
+	        } 
+	        ul.footer-nav{ 
+                
+		      width: 350px;		
+	        }
+	 
+	        .footer-nav li a{
+		         font-size: 10px;	
+		
+	        } 
+	        .footer-inner{
+		        margin-left:0%; 
+                        width: 200px;
+		 
+	        } 
+	        .fc{
+		       width: 70px;
+	        }
+	
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
