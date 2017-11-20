@@ -2,15 +2,16 @@
 include 'core/init.php';
 	try{
 		if (empty($_POST == false)){
-			$username = $_POST['username'];
-			$password = $_POST['password'];
+			$name = $_POST['name'];
+			$email = $_POST['email'];
+			$message = $_POST['meassage'];
 			$host="localhost";
 			$usernameDB="root";
 			$passwordDB="";
 			$dbname = "vrlogin";
 			$newDBConnect = new dataBase($host,$usernameDB,$passwordDB,$dbname);
-			if($newDBConnect->userExists($username) == false){
-				echo '<script type="text/javascript">alert("TankYou We have your details")</script>';
+			if($newDBConnect->userExists($name) == false){
+				echo '<script type="text/javascript">alert("TankYou for you Message")</script>';
 				header( "refresh:5; url=index.php" );
 					throw new Exception("<h1>Username is incorrect!!!!.........redirect back to login screen</h1><br/>");
 			

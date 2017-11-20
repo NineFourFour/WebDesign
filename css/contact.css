@@ -1,19 +1,19 @@
 	
 	.first{
-		background: -webkit-linear-gradient(gray,white,gray);
+		/*background: -webkit-linear-gradient(gray,white,gray);*/
 		background-repeat: no-repeat;
 	}
-	.login{
+	.contactArea{
 		position: absolute;
-		width: 800px;
+		width: 1100px;
 		height: 400px;
 		left: 50%;
 		top: 150px;
-		margin-left: -400px;
+		margin-left: -550px;
 		font-family: Myriad Pro regular;
 		color: #000;
 		font-weight: bold;
-		background: -webkit-linear-gradient(gray,white,gray);
+		border: 1px solid black;
 		border-radius: 25px;
 	}
 	#inner{
@@ -22,10 +22,20 @@
 		font-family: Myriad Pro regular;
 		top: 150px;
 		left: 50%;
-		margin-left: -200px;
+		margin-left: -100px;
 		font-size: 20px;	
 	}
-	#loginTitle{
+	#messageTextArea{
+		position: absolute;
+		width: 250px;
+		font-family: Myriad Pro regular;
+		top: 120px;
+		left: 0%;
+		margin-left: 0px;
+		font-size: 16px;
+		color: gray;
+	}
+	#contactTitle{
 		position: absolute;
 		width: 60px;
 		top: 20px;
@@ -35,11 +45,19 @@
 		font-family: Myriad Pro regular;
 		color: #fff;
 	}
+	#w3Padding{
+		padding-left: 32px;
+		margin-top: 50px;
+	}
 	#submit{
+		margin-top: 18px;
 		float: right;
+		width: 80px;
 	}
 	.inputField{
-		float: right; 
+		float: left; 
+		width: 250px;
+		font-size: 16px;
 	}
 	.logout{
 		font-family: Myriad Pro regular;
