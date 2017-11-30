@@ -41,6 +41,7 @@
 			<a href="#tour" class="w3-bar-item w3-button w3-padding-large">TOUR</a>
 			<a href="#" class="w3-bar-item w3-button w3-padding-large">MERCH</a>
 		</div>
+		
 		<div class="contactArea">
 			<h2 class="w3-wide w3-center">CONTACT</h2>
 			<p class="w3-opacity w3-center"><i>Please get in touch!</i></p>
