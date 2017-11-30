@@ -25,9 +25,11 @@
 		font-family: Myriad Pro regular;
 		top: 150px;
 		left: 50%;
-	
 		margin-left: -100px;
 		font-size: 20px;	
+	}
+	.inputField{
+		width: 250px;
 	}
 	#messageTextArea{
 		position: absolute;
@@ -58,12 +60,22 @@
 		float: right;
 		width: 80px;
 	}
-	@media (max-width: 800px){
+	@media (max-width: 980px){
 		body{
-	
 			background-size: auto;
-	
 		}
+		.contactArea{	
+			width: 800px;
+			margin-left: -400px;
+		}
+		#inner{
+			margin-left: 0px;	
+		}
+		#submit{
+			margin-top: 8px;
+		}
+	}
+	@media (max-width: 800px){
 		.contactArea{	
 			width: 700px;
 			margin-left: -350px;
@@ -75,28 +87,61 @@
 		#submit{
 			margin-top: 8px;
 		}
-	}	
-	@media (max-width: 400px){
-
+	}
+	@media (max-width: 700px){
 		.contactArea{	
-			width: 350px;
-			margin-left: -175px;
-			top: 50px;
-			height: 570px;
+			width: 650px;
+			margin-left: -325px;
 		}
 		#inner{
-			top: 270px;
+			margin-left: -37px;	
+		}
+		#submit{
+			margin-top: 8px;
+		}
+	}
+	@media (max-width: 600px){
+		.contactArea{	
+			width: 500px;
+			margin-left: -250px;
+			top: 90px;
+			height: 530px;
+		}
+		#inner{
+			top: 235px;
 			margin-left: -115px;
 			width: 250px;			
 		}
 		#submit{
 			margin-top: 50px;
-
 			
 		}
 		#w3Padding{
-			padding-left: 60px;
+			padding-left: 82px;
 			margin-top: -10px;
+		}
+	}
+	@media (max-width: 500px){
+		.contactArea{	
+			width: 400px;
+			margin-left: -200px;
+		}
+		#w3Padding{
+			padding-left: 39px;
+		}
+	}
+	@media (max-width: 400px){
+		.contactArea{	
+			width: 350px;
+			margin-left: -175px;
+			top: 70px;
+			height: 550px;
+		}
+		#inner{
+			top: 270px;			
+		}
+		#w3Padding{
+			padding-left: 60px;
 		}
 	}
 	

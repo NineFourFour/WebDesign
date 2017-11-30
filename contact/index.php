@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--put icon in browser tab-->
 		<link rel="icon" href="favicon.ico" type="image/x-icon"> 
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"
 	<!--Page title-->
 		<title>Contact</title>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -36,7 +37,6 @@
 		</div>
 		<!-- Navbar on small screens -->
 		<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-			<a href="../index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
 			<a href="#band" class="w3-bar-item w3-button w3-padding-large">BAND</a>
 			<a href="#tour" class="w3-bar-item w3-button w3-padding-large">TOUR</a>
 			<a href="#" class="w3-bar-item w3-button w3-padding-large">MERCH</a>
@@ -61,6 +61,17 @@
 				<textarea id="messageTextArea" name="message" form="contactForm">Enter message here...</textarea>
 			</div>
 		</div>
+		<script>
+			// Used to toggle the menu on small screens when clicking on the menu button
+			function myFunction() {
+				var x = document.getElementById("navDemo");
+				if (x.className.indexOf("w3-show") == -1) {
+					x.className += " w3-show";
+				} else { 
+					x.className = x.className.replace(" w3-show", "");
+				}
+			}
+		</script>
 	</body>
 </html>
 	
